@@ -1,0 +1,47 @@
+:root {
+    --rojo: #EF3829;
+    --gris: #333;
+    --blanco: #fff;
+}
+
+body { font-family: 'Segoe UI', sans-serif; background: #e9e9e9; margin: 0; padding: 0; }
+
+header { background: var(--rojo); color: white; padding: 25px; text-align: center; }
+
+.container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+
+.filter-section {
+    display: flex; gap: 15px; background: white; padding: 20px;
+    border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.filter-section input, .filter-section select {
+    padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;
+}
+.filter-section input { flex: 3; }
+.filter-section select { flex: 1; }
+
+.grid-planes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+
+.card { 
+    background: white; border-radius: 12px; padding: 20px; 
+    border-top: 6px solid var(--rojo); display: flex; flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 { margin: 10px 0; color: var(--rojo); min-height: 48px; font-size: 1.1rem; }
+
+.precio-box { background: #fff5f5; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 15px; }
+.precio-box big { font-size: 1.8rem; font-weight: bold; color: var(--gris); }
+
+.btn-detalles {
+    background: var(--gris); color: white; border: none; padding: 12px;
+    border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: auto;
+}
+.btn-detalles:hover { background: var(--rojo); }
+
+/* MODAL */
+.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); }
+.modal-content { background: white; margin: 10% auto; padding: 25px; border-radius: 12px; width: 90%; max-width: 450px; position: relative; }
+.close-btn { position: absolute; right: 15px; top: 10px; font-size: 25px; cursor: pointer; }
+.modal-item { margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 5px; }

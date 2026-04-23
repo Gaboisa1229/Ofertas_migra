@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consola Claro - Versión Estable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Consola de Ofertas Claro</h1>
+        <p>Catálogo Pospago Migración</p>
+    </header>
+
+    <div class="container">
+        <div class="filter-section">
+            <input type="text" id="buscador" placeholder="🔍 Buscar por nombre o TMCODE...">
+            <select id="filtroCategoria">
+                <option value="todos">Mostrar Todo</option>
+                <option value="Bundle">Planes Bundle</option>
+                <option value="Power">Power</option>
+                <option value="Netflix">Netflix</option>
+                <option value="Win play">Win</option>
+                <option value="Disney">Disney</option>
+                <option value="Todo Claro">Todo Claro</option>
+                <option value="Planes estandar">Planes estandar</option>
+            </select>
+        </div>
+
+        <div id="grid-planes" class="grid-planes">
+            </div>
+    </div>
+
+    <div id="modalBeneficios" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="cerrarModal()">&times;</span>
+            <h2 id="modal-titulo" style="color: #EF3829;"></h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
