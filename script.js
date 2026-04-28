@@ -295,7 +295,29 @@ const planes = [
                                     
         }
     },
-    
+    {
+        tmcode: "38080",
+        nombre: "Conectados 26.1 E 52.9 EC_AP1",
+        categoria: "Bundle",
+        cargoBase: 52900,
+        streaming: 0,
+        navegacion: "55 GB",
+        compartir: "55 GB",
+        minutos: "Ilimitados",
+        SMS: "Ilimitados",
+        beneficios: {
+            "Claro Video": "Peliculas y series",
+            "Claro Club": "Descuentos y cupones",
+            "Claro Drive": "100 GB en la nube",
+            "Claro Música": "Acceso a Playlists",
+            "Redes Sociales": "Facebook App, X, WhatsApp",
+            "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
+            "Aplicación": "Escudo Claro ($2.000)",
+            "Descuento1": "50% ($29.950 Mes 1)",
+            "Descuento2": "25% ($41.425 Mes 1 y 2)",
+                                    
+        }
+    },
     {
         tmcode: "38081",
         nombre: "Conectados 26.1 E 53.9",
