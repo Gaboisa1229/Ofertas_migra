@@ -110,8 +110,8 @@ const planes = [
     // Planes power
     
     {
-        tmcode: "34605",
-        nombre: "Paquete Power 25.2 V 4.1",
+        tmcode: "38183",
+        nombre: "Paquete Power 26.2 V 44.9",
         categoria: "Power",
         cargoBase: 44900,
         streaming: 0,
@@ -274,7 +274,7 @@ const planes = [
     },
     {
         tmcode: "37218",
-        nombre: "Conectados 26.1 E 52.9 CN_AP1",
+        nombre: "Conectados 26.1 E 52.9 AP1",
         categoria: "Bundle",
         cargoBase: 52900,
         streaming: 0,
@@ -289,7 +289,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
-            "Aplicación": "Cine ($2.300)",
             "Descuento1": "50% ($30.100 Mes 1)",
             "Descuento2": "25% ($41.500 Mes 1 y 2)",
                                     
@@ -297,7 +296,7 @@ const planes = [
     },
     {
         tmcode: "38080",
-        nombre: "Conectados 26.1 E 52.9 EC_AP1",
+        nombre: "Conectados 26.1 E 52.9 AP1",
         categoria: "Bundle",
         cargoBase: 52900,
         streaming: 0,
@@ -312,7 +311,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
-            "Aplicación": "Escudo Claro ($2.000)",
             "Descuento1": "50% ($29.950 Mes 1)",
             "Descuento2": "25% ($41.425 Mes 1 y 2)",
                                     
