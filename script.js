@@ -289,7 +289,6 @@ const planes = [
             "Claro Drive": "100 GB en la nube",
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
-            "Descuento1": "50% ($26.950 Mes 1)",
             "Descuento2": "25% ($40.425 Mes 1 y 2)",
                                                 
         }
@@ -311,7 +310,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Escudo claro ($2.000)",
-            "Descuento1": "50% ($28.950 Mes 1)",
             "Descuento2": "25% ($42.425 Mes 1 y 2)",
                                                 
         }
@@ -333,7 +331,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Cine ($2.300)",
-            "Descuento1": "50% ($29.100 Mes 1)",
             "Descuento2": "25% ($42.500 Mes 1 y 2)",
                                                 
         }
@@ -356,7 +353,6 @@ const planes = [
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($30.950 Mes 1)",
             "Descuento2": "25% ($43.925 Mes 1 y 2)",
                                                 
         }
@@ -381,7 +377,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($40.100 Mes 1)",
+            
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
                                                 
         }
@@ -406,7 +402,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($40.100 Mes 1)",
+            
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
                                                 
         }
@@ -431,7 +427,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($40.100 Mes 1)",
+            
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
                                                 
         }
@@ -456,7 +452,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($45.100 Mes 1)",
+            
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
                                                 
         }
@@ -481,7 +477,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($45.100 Mes 1)",
+            
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
                                                 
         }
@@ -506,7 +502,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($45.100 Mes 1)",
+            
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
                                                 
         }
@@ -530,7 +526,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($66.550 Mes 1)",
+            
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
                                                 
         }
@@ -554,7 +550,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($66.550 Mes 1)",
+            
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
                                                 
         }
@@ -578,7 +574,7 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            "Descuento1": "50% ($66.550 Mes 1)",
+            
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
                                                 
         }
