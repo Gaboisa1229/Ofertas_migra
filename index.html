@@ -3,40 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consola Claro - Versión Estable</title>
+    <title>Ofertas Claro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Consola de Ofertas Claro</h1>
-        <p>Catálogo Pospago Migración</p>
-    </header>
-
-    <div class="container">
-        <div class="filter-section">
-            <input type="text" id="buscador" placeholder="🔍 Buscar por nombre o TMCODE...">
-            <select id="filtroCategoria">
-                <option value="todos">Mostrar Todo</option>
-                <option value="Bundle">Planes Bundle</option>
-                <option value="Power">Power</option>
-                <option value="Netflix">Netflix</option>
-                <option value="Win play">Win</option>
-                <option value="Disney">Disney</option>
-                <option value="Todo Claro">Todo Claro</option>
-                <option value="Planes estandar">Planes estandar</option>
-            </select>
+    <div id="pantallaBienvenida" class="welcome-screen">
+        <div class="welcome-card">
+            <div class="logo-placeholder">CLARO</div>
+            
+            <h2>Consola de Catálogo Pospago Migración</h2>
+            <br></br>
+            <button class="btn-next" onclick="entrarAlCatalogo()">Siguiente ➔</button>
         </div>
-
-        <div id="grid-planes" class="grid-planes">
-            </div>
     </div>
 
-    <div id="modalBeneficios" class="modal">
+    <div id="contenidoPrincipal" class="main-content hidden">
+        <header>
+            <div class="header-container">
+                <h1>Ofertas Claro Migración</h1>
+                
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="contratacion-section">
+                <h2 class="section-title">📜 Consulta Modelos de Contrato</h2>
+                <div class="contrato-buttons">
+                    <button class="btn-contrato" onclick="abrirContrato('migracion')">Contrato Migración</button>
+                    <button class="btn-contrato" onclick="abrirContrato('power')">Contrato Power</button>
+                    <button class="btn-contrato" onclick="abrirContrato('netflix')">Contrato Netflix</button>
+                    <button class="btn-contrato" onclick="abrirContrato('no_titular')">Contrato No Titular</button>
+                </div>
+            </section>
+
+            <section class="control-panel">
+                <div class="filter-box">
+                    <input type="text" id="buscador" placeholder="🔍 Buscar por nombre o TMCODE...">
+                    <select id="filtroCategoria">
+                        <option value="todos">Todas las Categorías</option>
+                        <option value="Bundle">Planes Bundle</option>
+                        <option value="Power">Power</option>
+                        <option value="Netflix">Netflix</option>
+                        <option value="Win">Win</option>
+                        <option value="Disney">Disney</option>
+                        <option value="Todo Claro">Todo Claro</option>
+                        <option value="Planes estandar">Planes estandar</option>
+                    </select>
+                </div>
+            </section>
+
+            <h2 class="section-title">Portafolio de Planes</h2>
+            <div id="grid-planes" class="grid-planes"></div>
+        </main>
+    </div>
+
+    <div id="modalInformativo" class="modal" onclick="cerrarModal(event)">
         <div class="modal-content">
-            <span class="close-btn" onclick="cerrarModal()">&times;</span>
-            <h2 id="modal-titulo" style="color: #EF3829;"></h2>
-            <div id="modal-body"></div>
+            <span class="close-btn" onclick="document.getElementById('modalInformativo').style.display='none'">&times;</span>
+            <div id="modal-inner"></div>
         </div>
     </div>
 
