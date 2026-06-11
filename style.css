@@ -1,47 +1,51 @@
 :root {
-    --rojo: #EF3829;
-    --gris: #333;
-    --blanco: #fff;
+    --bg-main: #121212; --bg-card: #1e1e1e; --bg-input: #2a2a2a;
+    --rojo-claro: #EF3829; --blanco: #ffffff; --texto-secundario: #b0b0b0;
+    --sombra: 0 8px 24px rgba(0, 0, 0, 0.4); --transicion: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+body { background-color: var(--bg-main); color: var(--blanco); overflow-x: hidden; }
 
-body { font-family: 'Segoe UI', sans-serif; background: #e9e9e9; margin: 0; padding: 0; }
-
-header { background: var(--rojo); color: white; padding: 25px; text-align: center; }
-
-.container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
-
-.filter-section {
-    display: flex; gap: 15px; background: white; padding: 20px;
-    border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.welcome-screen {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999;
+    background: radial-gradient(circle, #250505 0%, var(--bg-main) 100%); display: flex; align-items: center; justify-content: center; transition: opacity 0.5s;
 }
+.welcome-card { background: var(--bg-card); padding: 40px; border-radius: 20px; text-align: center; max-width: 500px; width: 90%; border: 1px solid #333; box-shadow: var(--sombra); }
+.logo-placeholder { font-size: 2.5rem; font-weight: 900; color: var(--rojo-claro); margin-bottom: 20px; }
+.btn-next, .btn-contrato, .btn-detalles { border: none; font-weight: bold; cursor: pointer; transition: var(--transicion); }
+.btn-next { background: var(--rojo-claro); color: var(--blanco); padding: 14px 35px; border-radius: 30px; box-shadow: 0 4px 15px rgba(239, 56, 41, 0.3); }
+.btn-next:hover { background: var(--blanco); color: var(--bg-main); transform: translateY(-3px); }
 
-.filter-section input, .filter-section select {
-    padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;
-}
-.filter-section input { flex: 3; }
-.filter-section select { flex: 1; }
+.hidden { opacity: 0; pointer-events: none; transform: translateY(20px); }
+.main-content { transition: opacity 0.6s, transform 0.6s; }
+header { background: linear-gradient(180deg, #250505 0%, var(--bg-main) 100%); padding: 30px 20px; text-align: center; border-bottom: 1px solid #222; }
+.update-tag { margin-top: 10px; display: inline-block; background: rgba(255,255,255,0.05); padding: 6px 15px; border-radius: 20px; font-size: 0.8rem; border: 1px solid #333; }
+.update-tag strong { color: var(--rojo-claro); }
 
-.grid-planes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.section-title { font-size: 1.4rem; margin: 30px 0 20px; border-left: 4px solid var(--rojo-claro); padding-left: 10px; }
 
-.card { 
-    background: white; border-radius: 12px; padding: 20px; 
-    border-top: 6px solid var(--rojo); display: flex; flex-direction: column;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+.contratacion-section, .control-panel { background: var(--bg-card); padding: 25px; border-radius: 15px; border: 1px solid #252525; margin-bottom: 25px; box-shadow: var(--sombra); }
+.contrato-buttons, .filter-box { display: grid; gap: 15px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.filter-box input { grid-column: span 2; }
+input, select { background-color: var(--bg-input); color: var(--blanco); border: 1px solid #444; padding: 14px; border-radius: 10px; outline: none; }
 
-.card h3 { margin: 10px 0; color: var(--rojo); min-height: 48px; font-size: 1.1rem; }
+.btn-contrato { background: #1a1a1a; color: var(--blanco); border: 1px solid #444; padding: 15px; border-radius: 10px; }
+.btn-contrato:hover { background: var(--blanco); color: var(--bg-main); transform: translateY(-3px); }
 
-.precio-box { background: #fff5f5; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 15px; }
-.precio-box big { font-size: 1.8rem; font-weight: bold; color: var(--gris); }
+.grid-planes { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 25px; }
+.card { background: var(--bg-card); border-radius: 16px; padding: 25px; border: 1px solid #252525; display: flex; flex-direction: column; box-shadow: var(--sombra); transform: translateY(20px); transition: var(--transicion); opacity: 0; }
+.card.rendered { opacity: 1; transform: translateY(0); }
+.card:hover { transform: translateY(-10px); border-color: #444; }
+.card h3 { color: var(--rojo-claro); margin: 10px 0; min-height: 40px; }
+.precio-box { background: #251010; padding: 15px; border-radius: 10px; text-align: center; margin: 15px 0; border: 1px solid #401515; }
+.precio-box big { font-size: 2rem; font-weight: 800; }
+.info-field { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #2d2d2d; font-size: 0.9rem; }
+.info-field span:first-child { color: var(--texto-secundario); font-weight: bold; }
+.btn-detalles { background: #2a2a2a; color: var(--blanco); border: 1px solid #444; padding: 12px; border-radius: 8px; margin-top: auto; }
+.btn-detalles:hover { background: var(--rojo-claro); }
 
-.btn-detalles {
-    background: var(--gris); color: white; border: none; padding: 12px;
-    border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: auto;
-}
-.btn-detalles:hover { background: var(--rojo); }
-
-/* MODAL */
-.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); }
-.modal-content { background: white; margin: 10% auto; padding: 25px; border-radius: 12px; width: 90%; max-width: 450px; position: relative; }
-.close-btn { position: absolute; right: 15px; top: 10px; font-size: 25px; cursor: pointer; }
-.modal-item { margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+.modal { display: none; position: fixed; z-index: 10000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); }
+.modal-content { background: var(--bg-card); margin: 10% auto; padding: 35px; border-radius: 16px; width: 90%; max-width: 550px; position: relative; border: 1px solid #333; animation: slideUp 0.4s ease; }
+.close-btn { position: absolute; right: 20px; top: 15px; font-size: 28px; color: var(--texto-secundario); cursor: pointer; }
+@keyframes slideUp { from { transform: translateY(40px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
