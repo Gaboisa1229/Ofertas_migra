@@ -12,7 +12,6 @@ const planes = [
         minutos: "Ilimitados",
         SMS: "Ilimitados",
         Min_ilim: "marcando por el 00444 a USA Canadá México y Puerto Rico",
-        // Puedes cambiar los nombres de estas características aquí mismo:
         beneficios: {
             "Claro Video": "Peliculas y series",
             "Claro Club": "Descuentos y cupones",
@@ -22,9 +21,6 @@ const planes = [
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp",
             "Netflix": "Netflix Básico 1 pantalla",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            // Ejemplo de cómo añadir más
-            
-            
         }
     },
     {
@@ -38,7 +34,6 @@ const planes = [
         minutos: "Ilimitados",
         SMS: "Ilimitados",
         Min_ilim: "marcando por el 00444 a USA Canadá México y Puerto Rico",
-        // Puedes cambiar los nombres de estas características aquí mismo:
         beneficios: {
             "Claro Video": "Peliculas y series",
             "Claro Club": "Descuentos y cupones",
@@ -48,9 +43,6 @@ const planes = [
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp",
             "Netflix": "Netflix Básico 1 pantalla",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            // Ejemplo de cómo añadir más
-            
-            
         }
     },
     {
@@ -63,8 +55,6 @@ const planes = [
         compartir: "Hasta 20GB y 5GB a Claro Video y Netflix",
         minutos: "Ilimitados",
         SMS: "Ilimitados",
-        
-        // Puedes cambiar los nombres de estas características aquí mismo:
         beneficios: {
             "Claro Video": "Peliculas y series",
             "Claro Club": "Descuentos y cupones",
@@ -74,9 +64,6 @@ const planes = [
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp",
             "Netflix": "Netflix Estándar 2 pantalla",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico"
-            
-            
-            
         }
     },
     {
@@ -89,8 +76,6 @@ const planes = [
         compartir: "Hasta 60GB y 5GB a Claro Video y Netflix",
         minutos: "Ilimitados",
         SMS: "Ilimitados",
-        
-        // Puedes cambiar los nombres de estas características aquí mismo:
         beneficios: {
             "Claro Video": "Peliculas y series",
             "Claro Club": "Descuentos y cupones",
@@ -100,18 +85,12 @@ const planes = [
             "Redes Sociales": "No incluye",
             "Netflix": "Netflix Estándar 2 pantalla",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
-             
-                       
-            
         }
     },
-    
     // Planes power
-    
     {
-        tmcode: "38183",
-        nombre: "Paquete Power 26.2 V 44.9",
+        tmcode: "34605",
+        nombre: "Paquete Power 25.2 V 4.1",
         categoria: "Power",
         cargoBase: 44900,
         streaming: 0,
@@ -170,7 +149,7 @@ const planes = [
     {
         tmcode: "35086",
         nombre: "Conectados Win 25.2 V 6.1",
-        categoria: "Win play",
+        categoria: "Win", // Corregido para sincronizar con el <select> HTML
         cargoBase: 60900,
         streaming: 0,
         navegacion: "55 GB",
@@ -184,7 +163,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Descuento": "No incluye",
             "Redes Sociales": "Facebook App, X, WhatsApp", 
-                        
         }
     },
     // Planes Disney
@@ -205,7 +183,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Descuento": "No incluye",
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp", 
-                        
         }
     },
     // Planes Todo claro
@@ -225,10 +202,8 @@ const planes = [
             "Claro Drive": "100 GB en la nube",
             "Claro Música": "Acceso a Playlists",
             "Descuento": "No incluye",
-                                    
         }
     },
-    
     {
         tmcode: "37217",
         nombre: "Conectados 26.1 E 46.9_AP1",
@@ -246,7 +221,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Descuento": "No incluye",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
-                                    
         }
     },
     // Planes Bundle
@@ -267,15 +241,13 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
-            "Descuento1": "50% ($27.450 Mes 1)",
+            // "Descuento1": "50% ($27.450 Mes 1)",
             "Descuento2": "25% ($38.675 Mes 1 y 2)",
-                                    
         }
     },
-    
     {
         tmcode: "38081",
-        nombre: "Conectados 26.1 E 53.9",
+        nombre: "Conectados 26.1 V 53.9",
         categoria: "Bundle",
         cargoBase: 53900,
         streaming: 0,
@@ -289,8 +261,8 @@ const planes = [
             "Claro Drive": "100 GB en la nube",
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
+            "Descuento1": "50% ($26.950 Mes 1)",
             "Descuento2": "25% ($40.425 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -310,8 +282,8 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Escudo claro ($2.000)",
+            "Descuento1": "50% ($28.950 Mes 1)",
             "Descuento2": "25% ($42.425 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -331,8 +303,8 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Cine ($2.300)",
+            "Descuento1": "50% ($29.100 Mes 1)",
             "Descuento2": "25% ($42.500 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -353,8 +325,8 @@ const planes = [
             "Redes Sociales": "Instagram, Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
+            "Descuento1": "50% ($30.950 Mes 1)",
             "Descuento2": "25% ($43.925 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -377,9 +349,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($40.100 Mes 1)",
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -402,9 +373,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($40.100 Mes 1)",
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -427,9 +397,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($40.100 Mes 1)",
             "Descuento2": "25% ($53.000 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -452,9 +421,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($45.100 Mes 1)",
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -477,9 +445,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($45.100 Mes 1)",
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -502,9 +469,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($45.100 Mes 1)",
             "Descuento2": "25% ($60.500 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -526,9 +492,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($66.550 Mes 1)",
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -550,9 +515,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($66.550 Mes 1)",
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
-                                                
         }
     },
     {
@@ -574,9 +538,8 @@ const planes = [
             "Aplicación adicional2": "Lookout ($3.000)",
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
-            
+            "Descuento1": "50% ($66.550 Mes 1)",
             "Descuento2": "25% ($83.225 Mes 1 y 2)",
-                                                
         }
     },
     // Planes Basicos
@@ -597,7 +560,6 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Descuento": "50% ($22.450 Mes 1)",
-                                    
         }
     },
     {
@@ -617,65 +579,76 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Descuento": "50% ($23.450 Mes 1)",
-                                    
         }
-    },
-
-
-
-  
-
+    }
 ];
 
-// --- LÓGICA DEL SISTEMA (NO TOCAR SI NO ES NECESARIO) ---
+// --- LÓGICA DEL SISTEMA ADAPTADA A TU INTERFAZ ---
 
 const grid = document.getElementById('grid-planes');
 const buscador = document.getElementById('buscador');
 const filtroCat = document.getElementById('filtroCategoria');
 
+// FLUJO DE INICIO CONTROLADO
+function entrarAlCatalogo() {
+    document.getElementById('pantallaBienvenida').style.opacity = '0';
+    setTimeout(() => {
+        document.getElementById('pantallaBienvenida').style.display = 'none';
+        document.getElementById('contenidoPrincipal').classList.remove('hidden');
+        render(planes);
+    }, 500);
+}
+
+// INYECCIÓN DINÁMICA DE TARJETAS
 function render(lista) {
     grid.innerHTML = '';
+    
+    if(lista.length === 0) {
+        grid.innerHTML = `<p style="grid-column: 1/-1; text-align:center; color:#777; padding:40px;">No se encontraron ofertas en esta categoría.</p>`;
+        return;
+    }
+
     lista.forEach((p, index) => {
         const total = p.cargoBase + p.streaming;
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <small style="color: #888;">TMCODE: ${p.tmcode} | ${p.categoria}</small>
+            <small style="color: #888; font-weight: bold;">TMCODE: ${p.tmcode} | ${p.categoria}</small>
             <h3>${p.nombre}</h3>
             <div class="precio-box">
-                <small>Total a pagar:</small><br>
+                <small style="color: var(--texto-secundario); font-size: 0.75rem; display:block;">Total a pagar:</small>
                 <big>$${total.toLocaleString('es-CO')}</big>
             </div>
-            <div style="font-size: 0.9rem; margin-bottom: 15px;">
+            <div style="font-size: 0.9rem; margin-bottom: 15px; line-height: 1.6;">
                 <b>Navegación:</b> ${p.navegacion}<br>
                 <b>Compartir:</b> ${p.compartir}<br>
                 <b>Minutos:</b> ${p.minutos}<br>
                 <b>SMS:</b> ${p.SMS}
-                
-                
             </div>
             <button class="btn-detalles" onclick="abrirModal(${index}, '${lista === planes ? 'full' : 'filtered'}')">Ver Beneficios</button>
         `;
         grid.appendChild(card);
+        
+        // Animación de aparición suave
+        setTimeout(() => card.classList.add('rendered'), index * 30);
     });
 }
 
-// FILTRADO CORREGIDO
+// FILTRADO DE BUSCADOR Y SELECT
 function filtrar() {
     const busq = buscador.value.toLowerCase();
     const cat = filtroCat.value;
 
     const filtrados = planes.filter(p => {
         const coincideNombre = p.nombre.toLowerCase().includes(busq) || p.tmcode.includes(busq);
-        const coincideCat = (cat === "todos" || p.categoria === cat);
+        const coincideCat = (cat === "todos" || p.categoria === cat || (cat === "Planes estandar" && p.categoria === "Planes estandar"));
         return coincideNombre && coincideCat;
     });
     render(filtrados);
 }
 
-// MODAL DINÁMICO (Muestra todo lo que escribas en el objeto beneficios)
+// APERTURA DE MODAL ADAPTADA A TUS IDS ACTUALES
 function abrirModal(index, type) {
-    // Si la lista está filtrada, necesitamos encontrar el plan correcto
     let p;
     if(type === 'full') {
         p = planes[index];
@@ -683,36 +656,43 @@ function abrirModal(index, type) {
         const busq = buscador.value.toLowerCase();
         const cat = filtroCat.value;
         const filtrados = planes.filter(p => {
-            const coincideNombre = p.nombre.toLowerCase().includes(busq) || p.tmcode.includes(busq);
-            const coincideCat = (cat === "todos" || p.categoria === cat);
-            return coincideNombre && coincideCat;
+            return (p.nombre.toLowerCase().includes(busq) || p.tmcode.includes(busq)) && (cat === "todos" || p.categoria === cat);
         });
         p = filtrados[index];
     }
 
-    document.getElementById('modal-titulo').innerText = p.nombre;
     let htmlBeneficios = '';
-    
-    // Este bucle lee automáticamente cualquier característica que pongas en "beneficios"
     for (const [titulo, valor] of Object.entries(p.beneficios)) {
-        htmlBeneficios += `<div class="modal-item"><strong>${titulo}:</strong> ${valor}</div>`;
+        htmlBeneficios += `<div style="margin-bottom:12px; font-size:0.95rem;"><strong>🎬 ${titulo}:</strong> ${valor}</div>`;
     }
     
-    document.getElementById('modal-body').innerHTML = htmlBeneficios;
-    document.getElementById('modalBeneficios').style.display = 'block';
+    // Mapeo dinámico hacia el modal de tu HTML actual
+    document.getElementById('modal-inner').innerHTML = `
+        <h2 id="modal-titulo" style="color: var(--rojo-claro); margin-bottom:20px; font-size:1.4rem;">${p.nombre}</h2>
+        <div id="modal-body" style="line-height: 1.6;">${htmlBeneficios}</div>
+    `;
+    document.getElementById('modalInformativo').style.display = 'block';
 }
 
+// ENRUTADOR LOCAL DE CONTRATOS PDF
+function abrirContrato(tipo) {
+    const archivos = { 
+        migracion: 'contrato-migracion.pdf', 
+        power: 'contrato-power.pdf', 
+        netflix: 'contrato-Netflix.pdf', 
+        no_titular: 'contrato-notitular.pdf' 
+    };
+    window.open(archivos[tipo], '_blank');
+}
+
+// CERRAR MODAL
 function cerrarModal() {
-    document.getElementById('modalBeneficios').style.display = 'none';
+    document.getElementById('modalInformativo').style.display = 'none';
 }
 
-// Cerrar al hacer clic fuera
 window.onclick = function(e) {
-    if (e.target == document.getElementById('modalBeneficios')) cerrarModal();
+    if (e.target == document.getElementById('modalInformativo')) cerrarModal();
 }
 
 buscador.addEventListener('input', filtrar);
 filtroCat.addEventListener('change', filtrar);
-
-// Carga Inicial
-render(planes);
