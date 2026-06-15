@@ -242,7 +242,7 @@ const planes = [
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
             // "Descuento1": "50% ($27.450 Mes 1)",
-            "Descuento2": "25% ($38.675 Mes 1 y 2)",
+            "Descuento2": "25% ($37425 Mes 1 y 2)",
         }
     },
     {
@@ -282,7 +282,7 @@ const planes = [
             "Claro Música": "Acceso a Playlists",
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Escudo claro ($2.000)",
-            "Descuento2": "25% ($42.425 Mes 1 y 2)",
+            "Descuento2": "25% ($41.925 Mes 1 y 2)",
         }
     },
     {
@@ -303,7 +303,7 @@ const planes = [
             "Redes Sociales": "Facebook App, X, WhatsApp",
             "Servicio adicional": "Cine ($2.300)",
             
-            "Descuento2": "25% ($42.500 Mes 1 y 2)",
+            "Descuento2": "25% ($41.925 Mes 1 y 2)",
         }
     },
     {
@@ -325,7 +325,7 @@ const planes = [
             "Aplicación adicional": "Amazon Prime, 3 pantallas ($5.000)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($43.925 Mes 1 y 2)",
+            "Descuento2": "25% ($42.675 Mes 1 y 2)",
         }
     },
     {
@@ -349,7 +349,7 @@ const planes = [
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($53.000 Mes 1 y 2)",
+            "Descuento2": "25% ($49.425 Mes 1 y 2)",
         }
     },
     {
@@ -373,7 +373,7 @@ const planes = [
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($53.000 Mes 1 y 2)",
+            "Descuento2": "25% ($49.425 Mes 1 y 2)",
         }
     },
     {
@@ -397,7 +397,7 @@ const planes = [
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($53.000 Mes 1 y 2)",
+            "Descuento2": "25% ($49.425 Mes 1 y 2)",
         }
     },
     {
@@ -421,7 +421,7 @@ const planes = [
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($60.500 Mes 1 y 2)",
+            "Descuento2": "25% ($56.925 Mes 1 y 2)",
         }
     },
     {
@@ -445,7 +445,7 @@ const planes = [
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($60.500 Mes 1 y 2)",
+            "Descuento2": "25% ($56.925 Mes 1 y 2)",
         }
     },
     {
@@ -469,7 +469,7 @@ const planes = [
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($60.500 Mes 1 y 2)",
+            "Descuento2": "25% ($56.925 Mes 1 y 2)",
         }
     },
     {
@@ -492,7 +492,7 @@ const planes = [
             "Asistencia Claro": "Multiasistencia ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($83.225 Mes 1 y 2)",
+            "Descuento2": "25% ($74.925 Mes 1 y 2)",
         }
     },
     {
@@ -515,7 +515,7 @@ const planes = [
             "Asistencia Claro": "Salud ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($83.225 Mes 1 y 2)",
+            "Descuento2": "25% ($74.925 Mes 1 y 2)",
         }
     },
     {
@@ -538,7 +538,7 @@ const planes = [
             "Asistencia Claro": "Pets ($6.300)",
             "Min_ilim": "marcando por el 00444 a USA Canadá México y Puerto Rico",
             
-            "Descuento2": "25% ($83.225 Mes 1 y 2)",
+            "Descuento2": "25% ($74.925 Mes 1 y 2)",
         }
     },
     // Planes Basicos
